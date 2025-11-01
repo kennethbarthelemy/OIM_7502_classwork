@@ -40,13 +40,15 @@ Contains information on game title, platform, publisher, critic scores, user sco
 
 ### **Section 3: Score Insights & Correlations**  
 - **Distribution of Critic Scores** → Histogram + KDE curve visualizing score concentration.  
-- **User vs. Critic Score Comparison** → Boxplot comparing variability between the two.  
+- **User vs. Critic Score Comparison** → Boxplot comparing variability between the two.
+- Highlighted **Top 10 Best-Selling Games** and overlaid their **User Scores** as data labels.  
+
+
+### **Section 4: Correlations, Conclusion and Example **   
 - **Correlation Heatmap** → Showed relationships among `Critic_Score`, `User_Score`, `Total_Shipped`, and `Year`.  
 - **Score vs. Sales Relationship** → Scatterplot indicating weak correlation between ratings and copies shipped.
-
-### **Section 4: Top Games Analysis**  
-- Highlighted **Top 10 Best-Selling Games** and overlaid their **User Scores** as data labels.  
-- Demonstrated label customization and Seaborn’s flexibility for annotation.
+- Call of Duty game examples
+- Conclusiom
 
 ---
 
@@ -78,10 +80,10 @@ MBA Candidate, Babson College
 
 ## Folder Structure  
 seaborn_videogame_analysis/
-│
-├── seaborn_videogameanalysis_kenneth.ipynb   # Jupyter Notebook
-├── game_sales_data.csv                        # Dataset (from Kaggle)
-└── README.md                                  # This documentation
+seaborn_videogameanalysis_kenneth.ipynb   # Jupyter Notebook
+game_sales_data.csv                        # Dataset (from Kaggle)
+README.md                                  # This documentation
+
 ---
 
 ### How to View
