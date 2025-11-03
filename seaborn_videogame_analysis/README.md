@@ -44,7 +44,7 @@ Contains information on game title, platform, publisher, critic scores, user sco
 - Highlighted **Top 10 Best-Selling Games** and overlaid their **User Scores** as data labels.  
 
 
-### **Section 4: Correlations, Conclusion and Example **   
+### **Section 4: Correlations, Conclusion and Example**   
 - **Correlation Heatmap** → Showed relationships among `Critic_Score`, `User_Score`, `Total_Shipped`, and `Year`.  
 - **Score vs. Sales Relationship** → Scatterplot indicating weak correlation between ratings and copies shipped.
 - Call of Duty game examples
